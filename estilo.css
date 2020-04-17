@@ -1,0 +1,75 @@
+
+*{
+    box-sizing: border-box;
+}
+@media (min-width: 992px) {
+    .s1, .s2, .s3 {
+        float: left;
+        border: 10px solid rgb(129, 0, 161);
+        margin: 10px;
+        background-color: rgb(200, 176, 214);
+    }
+    .s1 {
+        width: 30%;
+    }
+    .s2 {
+        width: 30%;
+    }
+    .s3 {
+        width: 30%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .s1, .s2, .s3 {
+        float: left;
+        border: 10px solid rgb(129, 0, 161);
+        margin: 6px;
+        background-color: rgb(200, 176, 214);
+    }
+    .s1 {
+        width: 47%;
+    }
+    .s2 {
+        width: 47%;
+    }
+    .s3 {
+        width: 95.5%;
+    }
+}
+@media (max-width: 767px) {
+    .s1, .s2, .s3{
+        float: left;
+        border: 10px solid rgb(129, 0, 161);
+        margin: 10px;
+        background-color: rgb(200, 176, 214);
+    }
+    .s1 {
+        width: 90%;
+    }   
+    .s2 {
+        width: 90%;
+    }    
+    .s3 {
+        width: 90%;
+    }
+}
+h2 {
+    float: right;
+    border: 3px solid rgb(75, 6, 235);
+    margin: 10px;
+    position: relative;
+    top: 3px;
+}
+.primeiracor{
+    background-color: rgb(75, 218, 70);
+}
+.segundacor{
+    background-color: rgb(196, 68, 179);
+}
+.terceiracor{
+    background-color: rgb(6, 202, 236);
+}
+
+h1 {
+    color:rgb(129, 0, 161);
+}
