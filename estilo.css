@@ -6,8 +6,9 @@
 @media (min-width: 992px) {
     .s1, .s2, .s3 {
         float: left;
-        border: 10px solid rgb(129, 0, 161);
+        border: 5px solid rgb(129, 0, 161);
         margin: 10px;
+       
         background-color: rgb(200, 176, 214);
     }
     .s1 {
@@ -66,8 +67,9 @@ h2 {
 }
 p {
     float: left;
-    margin-left: 10px;
-    margin-right: 10px;
+    font-size: x-large;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .primeiracor{
     background-color: rgb(75, 218, 70);
