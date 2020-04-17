@@ -2,6 +2,7 @@
 *{
     box-sizing: border-box;
 }
+/**Desktop**/
 @media (min-width: 992px) {
     .s1, .s2, .s3 {
         float: left;
@@ -19,6 +20,7 @@
         width: 30%;
     }
 }
+/**Tablet**/
 @media (min-width: 768px) and (max-width: 991px) {
     .s1, .s2, .s3 {
         float: left;
@@ -36,6 +38,7 @@
         width: 95.5%;
     }
 }
+/**Celular**/
 @media (max-width: 767px) {
     .s1, .s2, .s3{
         float: left;
@@ -44,14 +47,15 @@
         background-color: rgb(200, 176, 214);
     }
     .s1 {
-        width: 90%;
+        width: 93%;
     }   
     .s2 {
-        width: 90%;
+        width: 93%;
     }    
     .s3 {
-        width: 90%;
+        width: 93%;
     }
+    
 }
 h2 {
     float: right;
@@ -59,6 +63,11 @@ h2 {
     margin: 10px;
     position: relative;
     top: 3px;
+}
+p {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .primeiracor{
     background-color: rgb(75, 218, 70);
